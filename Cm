@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Christopher McGrath | Off-Market Real Estate Deals</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      color: #111;
+      background: #fff;
+      margin: 0;
+      padding: 48px 20px;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 40px;
+      margin-bottom: 12px;
+    }
+    h2 {
+      font-size: 24px;
+      margin-top: 64px;
+      margin-bottom: 12px;
+    }
+    p {
+      color: #555;
+      line-height: 1.6;
+    }
+    .card {
+      border: 1px solid #e5e5e5;
+      border-radius: 16px;
+      padding: 24px;
+      margin-top: 24px;
+    }
+    .badge {
+      display: inline-block;
+      background: #111;
+      color: #fff;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+    }
+    ul {
+      padding-left: 18px;
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    button {
+      background: #111;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    footer {
+      margin-top: 80px;
+      font-size: 12px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>Christopher McGrath</h1>
+    <p>
+      Public off-market and flip-ready real estate contracts available for qualified cash buyers in Bergen County, New Jersey.
+    </p>
+
+    <h2>Available Contracts</h2>
+    <p>All properties are under contract and offered via assignment of equitable interest.</p>
+
+    <div class="card">
+      <span class="badge">Available</span>
+      <h3>123 Example St, Bergen County</h3>
+      <p>Distressed single-family. Flip ready. Clear title.</p>
+      <ul>
+        <li>ARV: $750,000</li>
+        <li>Estimated Rehab: $85,000</li>
+        <li>Assignment Price: $525,000</li>
+      </ul>
+    </div>
+
+    <h2>Submit an Offer</h2>
+    <p>All offers are reviewed privately. Proof of funds required.</p>
+
+    <form>
+      <input placeholder="Full Name" />
+      <input placeholder="Email Address" />
+      <input placeholder="Phone Number" />
+      <input placeholder="Property Address" />
+      <input placeholder="Offer Amount ($)" />
+      <input type="file" />
+      <textarea rows="4" placeholder="Buyer experience / notes"></textarea>
+      <button type="submit">Submit Offer</button>
+    </form>
+
+    <h2>Join Buyers List</h2>
+    <p>Receive future off-market opportunities before public release.</p>
+
+    <form>
+      <input placeholder="Full Name" />
+      <input placeholder="Email Address" />
+      <input placeholder="Phone Number" />
+      <textarea rows="4" placeholder="Buying criteria (budget, area, asset type)"></textarea>
+      <button type="submit">Join Buyers List</button>
+    </form>
+
+    <footer>
+      <p>© 2026 Christopher McGrath. All rights reserved.</p>
+      <p>Not a licensed real estate broker. Properties offered via equitable interest assignment only.</p>
+      <p>For qualified real estate investors and cash buyers.</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
